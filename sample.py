@@ -52,9 +52,14 @@ def get_data(samples, output, *interests):
 
         url_p = 'https://s3.amazonaws.com/irs-form-990/'
         url_e = '_public.xml'
+        
+        # Use counter to track the task rate
+        counter = 0
+        total = float(len(samples))
 
         for sample in samples:
-            print(sample)
+            counter += 1
+            print("Finished " + str(counter / total * 100) + "%")
             # Parse the xml file
             xml_response = requests.get(url_p + sample + url_e)
             root = ET.fromstring(xml_response.content)
