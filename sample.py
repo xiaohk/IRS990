@@ -46,7 +46,7 @@ def get_data(samples, output, *interests):
     
     with open(output, 'w') as out_csv:
         # The headers are the identifier and interested tags
-        writer = csv.DictWriter(out_csv, fieldnames = ['ID'] + list(interests), 
+        writer = csv.DictWriter(out_csv, fieldnames = ['id'] + list(interests), 
                                 delimiter = '\t')
         writer.writeheader()
 
@@ -60,7 +60,7 @@ def get_data(samples, output, *interests):
             root = ET.fromstring(xml_response.content)
 
             # Get the data for interested tags
-            data = {'ID' : sample}
+            data = {'id' : sample}
 
             for tag in interests:
                 # For missing data, we use empty string as replacement
@@ -71,8 +71,6 @@ def get_data(samples, output, *interests):
                     data[tag] = ''
 
             writer.writerow(data)
-
-get_data(sampling(20, 'test3.csv'), 'd.csv', 'TotalContributionsAmt', 'PYInvestmentIncomeAmt')
 
 def _indicator(probability):
     """
@@ -93,13 +91,3 @@ def _indicator(probability):
 
     return random.random() <= probability
 
-def _get_url(identifier):
-    """
-    Return the url for 990 form with given identifier.
-
-    Args:
-        identifier(str) : 14 digits identifier
-
-    Returns:
-        str : url for the given 
-    """
