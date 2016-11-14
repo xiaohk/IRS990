@@ -12,6 +12,7 @@ After getting the data, I did some research about the 990 Form. I decide to do a
 
 ## Steps
 For this project, I would choose 2 over 2015 population. Following are the steps I am planning to take.
+
 1. Fairly create a sample of orgs
     - With re-usable parameters(size, etc)
 2. Get the interested entries for the orgs created above
