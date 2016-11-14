@@ -40,7 +40,8 @@ def get_data(samples, output, *interests):
         samples(str list) : list of unique identifiers of the samples
         output(str) : file name of the output
         *interests : multiple string of the tags of interested entries. If the
-            tags are not in the 990 form, exception would be raised
+            tags are not in the 990 form, the values will be replaced with empty
+            string
 
     """
     
