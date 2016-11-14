@@ -8,5 +8,6 @@ INVEST = "PYInvestmentIncomeAmt"
 # Build data frame for analysis
 df = pd.DataFrame.from_csv('interest.csv', sep = '\t')
 
-df[CONTRI].std()
 print(df[CONTRI].mean())
+
+# More on the jupyter notebook
