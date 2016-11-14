@@ -1,4 +1,4 @@
-**Download or click the Jupyter notebook to see the summary in a better format**
+*Download or click the Jupyter notebook `IRS990.ipynb` to see the summary in a better format*
 
 ## Approaches
 After getting the data, I did some research about the 990 Form. I decide to do a mini-project studying the relations between the contribution and investment of organizations. There are many different approaches.
