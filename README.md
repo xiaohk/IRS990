@@ -3,6 +3,7 @@
 
 ## Approaches
 After getting the data, I did some research about the 990 Form. I decide to do a mini-project studying the relations between the contribution and investment of organizations. There are many different approaches.
+
 1. Study the contribution changing rate with investment changing rate over 1, 2, or 3 years
 2. Study the contribution and investment in a specific year
 3. Study the contribution and investment in a specific area (i.e. Madison WI)
@@ -525,4 +526,3 @@ The result is not quite as what I expected. If I have more time, or I would redo
 4. Explore more about the relations between contribution and investment.
 5. Except the contribution and investment, I am also interested in some other cool studies. For example, how LGBTQ organizations develop in the United States from 2010.
 6. Add a documentation for the python functions
-
