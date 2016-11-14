@@ -445,4 +445,3 @@ The result is not quite as what I expected. If I have more time, or I would redo
 4. Explore more about the relations between contribution and investment.
 5. Except the contribution and investment, I am also interested in some other cool studies. For example, how LGBTQ organizations develop in the United States from 2010.
 6. Add a documentation for the python functions
-
