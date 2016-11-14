@@ -523,5 +523,6 @@ The result is not quite as what I expected. If I have more time, or I would redo
 2. Try to clustering the population. Using random sampling is not very fair in this project. I would try to divide the organizations into different groups, and perform the analysis in and within those groups.
 3. Check the result of pandas csv reading result, it seems there are some wrongly-formated entries.
 4. Explore more about the relations between contribution and investment.
-3. Except the contribution and investment, I am also interested in some other cool studies. For example, how LGBTQ organizations develop in the United States from 2010.
+5. Except the contribution and investment, I am also interested in some other cool studies. For example, how LGBTQ organizations develop in the United States from 2010.
+6. Add a documentation for the python functions
 
